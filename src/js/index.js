@@ -22,7 +22,7 @@ function SimpleCounter(props) {
 		</div>
 	);
 }
-SimpleCounter.PropTypes = {
+SimpleCounter.propTypes = {
 	fourth_digit: PropTypes.number,
 	third_digit: PropTypes.number,
 	second_digit: PropTypes.number,
